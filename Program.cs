@@ -18,8 +18,8 @@ namespace CRMSync
             //SyncApprovedAccount.StartSync(true);   
             SyncApprovedAccount.StartSync(false);
             //APPROVEDLETTERDATEs
-            //ApprovalLetterDate syncApprovalDates = new ApprovalLetterDate();
-            //syncApprovalDates.StartSync();
+            ApprovalLetterDate syncApprovalDates = new ApprovalLetterDate();
+            syncApprovalDates.StartSync();
             //IHL
             //SyncApprovedAccountIHL.StartSync();
             //ShareHolder

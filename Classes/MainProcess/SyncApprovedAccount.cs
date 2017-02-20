@@ -1195,10 +1195,6 @@ namespace CRMSync.Classes.MainProcess
             //    string ModeSync = "ApprovedAccountSyncLog_";
             //    LogFileHelper.WriteLog(orniLogFileHelper.logList, ModeSync);
             #endregion
-            #region MOF
-            //MOFDataSync.Start(wizardData);
-            #endregion
-
         }
 
         private static string getLatestExcelFile()
